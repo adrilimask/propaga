@@ -1,0 +1,24 @@
+{
+  "name": "propaga",
+  "version": "1.0.0",
+  "description": "Plataforma digital de propaganda volante.",
+  "main": "index-scripts.js",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrimask/propaga.git"
+  },
+  "author": "Adriano Mascarenhas Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrimask/propaga/issues"
+  },
+  "homepage": "https://github.com/adrimask/propaga#readme"
+}

@@ -1,0 +1,116 @@
+:root {
+    --preto: #242320;
+    --amarelo1: #FAE596;
+    --amarelo2: #F2B911;
+    --laranja: #EB9500;
+    --vermelho: #FF6767;
+    --verde: #93CF6D;
+    --cinzaescuro: #4F4F4F;
+    --cinzamedio: #808080;
+    --cinzaclaro: #C9C9C9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to right bottom,var(--amarelo1),var(--amarelo2));
+}
+
+
+header, nav, footer{
+    height: 16.67vh;
+    background-color: var(--preto);
+    color: var(--amarelo1);
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: flex-end;
+    font-size: x-large;
+}
+
+footer{
+    justify-content: center;
+}
+
+p{
+    padding: 10px 0px;
+    margin: 10px 0px 0px;
+}
+
+input, textarea{
+    border: 0px;
+    padding: 5px;
+    margin: 15px 0px;
+}
+
+textarea{
+    height: 200px;
+}
+
+button{
+    background-color: var(--laranja);
+    border: 0px;
+}
+
+h1{
+    padding: 1em 1em;
+}
+
+#principal{
+    min-height: 66.64vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quemsomos{
+    min-height: 66.64vh;
+    flex-direction: row;
+    background-color: var(--preto);
+    color: var(--amarelo1);
+}
+
+.nav-item a{
+    color: var(--amarelo1);
+}
+
+.nav-item a:hover{
+    color: var(--laranja);
+}
+
+.bigbutton{
+    font-size: x-large;
+    padding: 15px 10px;
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.smallbutton{
+    padding: 5px 15px;
+    margin: 15px 0px;
+}
+
+.painelcontatos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+

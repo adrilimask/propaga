@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propaga - Página Inicial</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#quemsomos">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row" id="principal">
+        <div class="col-sm-auto">
+          <img
+            src="assets/marcacompleta.png"
+            alt="Marca da Propaga, composta por um ícone de carro com dois megafones em cima, acompanhados do nome da marca estilizado para indicar uma propagação das letras, da menor à esquerda para a maior à direita."
+          />
+        </div>
+        <div class="col-sm-3">
+          <button class="bigbutton">Cadastrar-se</button>
+          <button class="bigbutton">Login</button>
+          <form>
+            <p>
+              Digite sua cidade para saber se a Propaga já tem parceiros locais:
+            </p>
+            <input type="text"/>
+            <button class="smallbutton" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row flex-column" id="quemsomos">
+        <h1>Quem somos</h1>
+        <div class="row justify-content-center">
+          <div class="col-sm-8">
+            <p>
+              Propaga é uma plataforma de propaganda volante. Reunindo clientes,
+              redatores publicitários, locutores, editores de áudio, motoristas
+              de carro de som e empresas dessas áreas, facilitamos e melhoramos
+              o processo de divulgar nas ruas um negócio, evento ou qualquer
+              mensagem que precise atingir um grande público presencial.
+              Cadastre-se ou entre em contato, e faça sua mensagem chegar às
+              ruas!
+            </p>
+            <button class="smallbutton float-end">Cadastrar-se</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row flex-column" id="contato">
+        <h1>Contato</h1>
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-3">
+            <h2>Propaga</h2>
+            <p>contato@propaga.com.br</p>
+            <p>(XX) XXXXX-XXXXX</p>
+            <p>Rua Fulano de Tal, 123, Bairro, Cidade / Estado - XXXXX-XXX</p>
+          </div>
+          <div class="col-sm-5 d-flex flex-column">
+            <form>
+              <label>Nome:&#42; <input type="text" /></label>
+              <label>Empresa: <input type="text" /></label>
+              <label>Email para resposta:&#42; <input type="email" /></label>
+              <label>Mensagem:&#42; <textarea></textarea></label>
+              <button class="smallbutton" type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid">
+      <p>
+        Desenvolvido por Adriano Mascarenhas Lima para o Fullture Challenge
+        entre agosto e dezembro de 2021, sob orientação da professora Tatiana
+        Alencar.
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index-scripts.js"></script>
+  </body>
+</html>
